@@ -1,57 +1,106 @@
-# Vendor Profit Analyzer
+# Retail Intelligence Dashboard
 
 ## Overview
 
-Vendor Profit Analyzer is a data analytics project built using Python, Pandas, Matplotlib, and Streamlit.
+Retail Intelligence Dashboard is a Streamlit-based business analytics application that helps retailers and shop owners analyze sales performance, identify top-selling products, detect slow-moving inventory, and generate actionable business recommendations.
 
-The project helps vendors and business owners analyze sales performance, revenue trends, product performance, returns, and country-wise sales data through an interactive dashboard.
+The dashboard allows users to upload sales data in CSV format and instantly receive visual insights and recommendations.
+
+---
 
 ## Features
 
-* Data Cleaning and Preprocessing
-* Revenue Analysis
-* Returns Analysis
+### Sales Analytics
+
+* Total Revenue Analysis
+* Total Returns Analysis
+* Business Health Score
 * Monthly Revenue Trends
-* Top Products Analysis
+
+### Product Insights
+
+* Top 10 Products by Revenue
+* Slow Moving Products Detection
+* Product Search Filter
+* Discount Recommendations
+* Restock Recommendations
+
+### Business Intelligence
+
+* Executive Summary
 * Country-wise Revenue Analysis
-* Interactive Streamlit Dashboard
-* CSV Download Functionality
+* Business Performance Indicators
+
+### Data Export
+
+* Download Filtered Data
+* Download Discount Recommendation Report
+* Download Restock Recommendation Report
+
+---
 
 ## Technologies Used
 
 * Python
 * Pandas
-* Matplotlib
+* NumPy
 * Streamlit
+* Matplotlib
+* Git & GitHub
 
-## Dashboard Insights
-
-* Total Revenue
-* Total Returns
-* Top 10 Products by Revenue
-* Monthly Revenue Trend
-* Top 10 Countries by Revenue
-* Country Filter
-* Download Filtered Data
+---
 
 ## Project Structure
 
-data/
+Retail_Intelligence_Dashboard/
 
-output/
+├── data/
 
-src/
+├── output/
 
-dashboard.py
+├── src/
 
-README.md
+│ └── dashboard.py
 
-.gitignore
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
+
+---
+
+## How To Run
+
+1. Clone the repository
+
+git clone <repository-url>
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the dashboard
+
+streamlit run src/dashboard.py
+
+---
 
 ## Future Improvements
 
-* Profit Margin Analysis
-* Customer Segmentation
-* Sales Forecasting
-* Machine Learning Integration
-* Vendor Recommendation System
+* OCR-based Invoice Reader
+* Voice-Based Inventory Input
+* Inventory Management Module
+* Sales Forecasting using Machine Learning
+* PDF Report Generation
+* Customer Segmentation Analysis
+
+---
+
+## Author
+
+Ashie Sharma
+
+B.Tech CSE (AI & ML)
+
+Dronacharya College of Engineering
