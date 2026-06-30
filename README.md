@@ -70,21 +70,11 @@ Retail_Intelligence_Dashboard/
 
 ---
 
-## How To Run
+# 📊 Vendor Profit Analyzer
 
-1. Clone the repository
+🚀 **Live Demo:** https://vendorprofitanalyzer-gyglwcbadnro8yb9d3bmp6.streamlit.app/
 
-git clone <repository-url>
-
-2. Install dependencies
-
-pip install -r requirements.txt
-
-3. Run the dashboard
-
-streamlit run src/dashboard.py
-
----
+A Streamlit dashboard that analyzes vendor performance and provides business insights.
 
 ## Future Improvements
 
